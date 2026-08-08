@@ -17,14 +17,15 @@ export function Footer() {
                 alt={footerContent.logo.alt}
                 width={footerContent.logo.width}
                 height={footerContent.logo.height}
-                className="brightness-0 invert"
               />
               <span className="font-heading text-lg font-semibold text-white">
                 {siteContent.name}
               </span>
             </Link>
             <p className="max-w-xs text-sm leading-6 text-white/50">
-              {footerContent.copyright}
+              {footerContent.copyrightLines[0]}
+              <br />
+              {footerContent.copyrightLines[1]}
             </p>
             <div className="mt-2 flex items-center gap-3">
               {footerContent.socialLinks.map((social) => (

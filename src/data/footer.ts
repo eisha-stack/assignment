@@ -2,13 +2,12 @@ import type { FooterContent } from "@/types/content";
 
 export const footerContent: FooterContent = {
   logo: {
-    src: "/assets/logo.svg",
+    src: "/assets/logo_footer.svg",
     alt: "Nexcent logo",
     width: 25,
     height: 17,
   },
-  description: "Copyright © 2020 Landify Ui Kit. All rights reserved.",
-  copyright: "Copyright © 2020 Landify Ui Kit. All rights reserved.",
+  copyrightLines: ["Copyright © 2020 Landify Ui Kit.", "All rights reserved."],
   columns: [
     {
       title: "Company",

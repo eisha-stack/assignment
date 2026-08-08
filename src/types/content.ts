@@ -124,8 +124,7 @@ export type NewsletterContent = {
 
 export type FooterContent = {
   logo: IconAsset;
-  description: string;
-  copyright: string;
+  copyrightLines: [string, string];
   columns: FooterLinkColumn[];
   newsletter: NewsletterContent;
   socialLinks: SocialLink[];
