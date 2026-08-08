@@ -8,7 +8,7 @@ export const siteContent: SiteContent = {
   logo: {
     src: "/assets/logo.svg",
     alt: "Nexcent logo",
-    width: 25,
-    height: 17,
+    width: 32,
+    height: 22,
   },
 };

@@ -8,7 +8,7 @@ export const heroContent: HeroContent = {
     label: "Register",
     href: "#register",
     variant: "primary",
-    size: "md",
+    size: "lg",
   },
   image: {
     src: "/assets/Illustration1.svg",

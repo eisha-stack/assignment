@@ -35,7 +35,7 @@ export function Button({
     <Link
       href={href}
       className={cn(
-        "group inline-flex items-center justify-center gap-2 rounded-lg font-medium transition-all duration-200 ease-out",
+        "group inline-flex items-center justify-center gap-2 rounded-md font-medium transition-all duration-200 ease-out",
         !isLink && "hover:-translate-y-0.5 active:translate-y-0",
         !isLink && sizeClasses[size],
         variantClasses[variant],

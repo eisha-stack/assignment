@@ -36,7 +36,7 @@ export function Header() {
           </nav>
 
           <div className="hidden lg:block">
-            <Button {...navCta} size="sm" />
+            <Button {...navCta} />
           </div>
 
           <MobileNavToggle navLinks={navLinks} cta={navCta} />
