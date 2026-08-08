@@ -16,7 +16,7 @@ export function Clients() {
 
         <Reveal
           delay={150}
-          className="mt-10 flex flex-wrap items-center justify-center gap-x-12 gap-y-6"
+          className="mt-10 flex flex-wrap items-center justify-between gap-x-8 gap-y-6"
         >
           {clientsContent.logos.map((logo) => (
             <Image
@@ -25,7 +25,7 @@ export function Clients() {
               alt={logo.alt}
               width={logo.width}
               height={logo.height}
-              className="h-[33.41px] w-[33.41px] shrink-0 object-contain opacity-60 grayscale transition-all duration-300 hover:opacity-100 hover:grayscale-0"
+              className="h-10 w-10 shrink-0 object-contain"
             />
           ))}
         </Reveal>

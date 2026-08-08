@@ -10,5 +10,6 @@ export const clientsContent: ClientsContent = {
     { src: "/assets/client4.svg", alt: "Client logo 4", width: 17, height: 17 },
     { src: "/assets/client5.svg", alt: "Client logo 5", width: 17, height: 17 },
     { src: "/assets/client6.svg", alt: "Client logo 6", width: 18, height: 17 },
+    { src: "/assets/client3.svg", alt: "Client logo 7", width: 19, height: 17 },
   ],
 };
