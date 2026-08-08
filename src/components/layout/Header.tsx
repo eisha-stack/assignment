@@ -18,7 +18,7 @@ export function Header() {
               width={siteContent.logo.width}
               height={siteContent.logo.height}
             />
-            <span className="font-heading text-lg font-semibold text-ink-soft">
+            <span className="font-heading text-lg font-semibold text-ink">
               {siteContent.name}
             </span>
           </Link>
