@@ -32,7 +32,7 @@ export function Footer() {
                   key={social.label}
                   href={social.href}
                   aria-label={social.label}
-                  className="flex h-9 w-9 items-center justify-center rounded-full bg-white/10 transition-colors duration-200 hover:bg-primary-500"
+                  className="flex h-9 w-9 items-center justify-center transition-opacity duration-200 hover:opacity-70"
                 >
                   <Image
                     src={social.icon.src}

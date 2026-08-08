@@ -18,14 +18,13 @@ export function Services() {
           {servicesContent.cards.map((card, index) => (
             <Reveal key={card.title} delay={index * 100}>
               <div className="group flex h-full flex-col items-center gap-4 rounded-2xl border border-black/5 bg-white p-8 text-center shadow-card transition-all duration-300 hover:-translate-y-1.5 hover:shadow-card-hover">
-                <div className="flex h-16 w-16 items-center justify-center rounded-tl-2xl rounded-tr-2xl rounded-br-2xl rounded-bl-md bg-[#E8F5E9]">
-                  <Image
-                    src={card.icon.src}
-                    alt={card.icon.alt}
-                    width={card.icon.width}
-                    height={card.icon.height}
-                  />
-                </div>
+                <Image
+                  src={card.icon.src}
+                  alt={card.icon.alt}
+                  width={card.icon.width}
+                  height={card.icon.height}
+                  className="h-16 w-auto"
+                />
                 <h3 className="font-heading text-lg font-semibold text-ink-soft">{card.title}</h3>
                 <p className="text-sm leading-6 text-body">{card.description}</p>
               </div>
