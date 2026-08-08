@@ -38,7 +38,7 @@ export const footerContent: FooterContent = {
   },
   socialLinks: [
     { icon: { src: "/assets/instagram.svg", alt: "Instagram", width: 11, height: 11 }, href: "#instagram", label: "Instagram" },
-    { icon: { src: "/assets/website.svg", alt: "Website", width: 6, height: 6 }, href: "#website", label: "Website" },
+    { icon: { src: "/assets/website.svg", alt: "Dribbble", width: 11, height: 11 }, href: "#website", label: "Dribbble" },
     { icon: { src: "/assets/twitter.svg", alt: "Twitter", width: 11, height: 11 }, href: "#twitter", label: "Twitter" },
     { icon: { src: "/assets/youtube.svg", alt: "YouTube", width: 11, height: 11 }, href: "#youtube", label: "YouTube" },
   ],

@@ -39,7 +39,7 @@ export function Footer() {
                     alt=""
                     width={social.icon.width}
                     height={social.icon.height}
-                    className="h-[17.07px] w-[17.07px]"
+                    className="h-6 w-6"
                   />
                 </Link>
               ))}
