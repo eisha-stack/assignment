@@ -8,7 +8,7 @@ export function Clients() {
     <section className="bg-white py-16 sm:py-20">
       <Container>
         <Reveal className="mx-auto flex max-w-xl flex-col items-center gap-2 text-center">
-          <h2 className="font-heading text-2xl font-semibold text-ink sm:text-3xl">
+          <h2 className="font-heading text-2xl font-semibold text-ink-soft sm:text-3xl">
             {clientsContent.title}
           </h2>
           <p className="text-sm text-body">{clientsContent.description}</p>

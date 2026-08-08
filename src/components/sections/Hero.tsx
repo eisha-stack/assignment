@@ -10,12 +10,14 @@ export function Hero() {
       <Container>
         <div className="grid grid-cols-1 items-center gap-10 py-16 sm:py-20 lg:grid-cols-2 lg:gap-8 lg:py-24">
           <Reveal className="order-2 flex flex-col items-center gap-5 text-center lg:order-1 lg:items-start lg:text-left">
-            <h1 className="font-heading text-4xl font-semibold leading-tight text-ink sm:text-[42px] lg:text-[46px]">
-              {heroContent.headingLead}
+            <h1 className="font-heading text-4xl font-semibold leading-tight sm:text-[42px] lg:text-[46px]">
+              <span className="text-ink-soft">{heroContent.headingLead}</span>
               <br />
               <span className="text-primary-600">{heroContent.headingHighlight}</span>
             </h1>
-            <p className="max-w-md text-base leading-7 text-body">{heroContent.description}</p>
+            <p className="text-base leading-7 text-body lg:whitespace-nowrap">
+              {heroContent.description}
+            </p>
             <Button {...heroContent.cta} className="mx-auto lg:mx-0" />
           </Reveal>
 

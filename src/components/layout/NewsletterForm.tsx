@@ -21,7 +21,7 @@ export function NewsletterForm({ content }: NewsletterFormProps) {
       <button
         type="submit"
         aria-label={content.buttonLabel}
-        className="flex h-[42px] w-[42px] shrink-0 items-center justify-center rounded-lg bg-primary-500 text-white transition-colors duration-200 hover:bg-primary-600"
+        className="flex h-[42px] w-[42px] shrink-0 items-center justify-center rounded-[1.34px] bg-primary-500 text-white transition-colors duration-200 hover:bg-primary-600"
       >
         <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true">
           <path

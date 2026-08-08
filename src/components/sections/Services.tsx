@@ -8,7 +8,7 @@ export function Services() {
     <section id="features" className="bg-white pb-20 sm:pb-24">
       <Container>
         <Reveal className="mx-auto flex max-w-xl flex-col items-center gap-3 text-center">
-          <h2 className="font-heading text-2xl font-semibold leading-snug text-ink sm:text-3xl">
+          <h2 className="font-heading text-2xl font-semibold leading-snug text-ink-soft sm:text-3xl">
             {servicesContent.title}
           </h2>
           <p className="text-sm text-body">{servicesContent.eyebrow}</p>
@@ -26,7 +26,7 @@ export function Services() {
                     height={card.icon.height}
                   />
                 </div>
-                <h3 className="font-heading text-lg font-semibold text-ink">{card.title}</h3>
+                <h3 className="font-heading text-lg font-semibold text-ink-soft">{card.title}</h3>
                 <p className="text-sm leading-6 text-body">{card.description}</p>
               </div>
             </Reveal>

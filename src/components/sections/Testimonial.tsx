@@ -25,7 +25,7 @@ export function Testimonial() {
             <p className="text-sm leading-7 text-body">{testimonialContent.quote}</p>
 
             <div>
-              <p className="font-heading text-base font-semibold text-ink">
+              <p className="font-heading text-base font-semibold text-ink-soft">
                 {testimonialContent.name}
               </p>
               <p className="text-sm text-body">{testimonialContent.role}</p>

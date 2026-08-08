@@ -8,7 +8,7 @@ export function CtaBanner() {
     <section id="pricing" className="bg-surface py-20 sm:py-24">
       <Container>
         <Reveal className="mx-auto flex max-w-2xl flex-col items-center gap-8 text-center">
-          <h2 className="max-w-md font-heading text-3xl font-semibold leading-tight text-ink sm:max-w-lg sm:text-4xl">
+          <h2 className="max-w-md font-heading text-3xl font-semibold leading-tight text-ink-soft sm:max-w-lg sm:text-4xl">
             {ctaBannerContent.heading}
           </h2>
           <Button {...ctaBannerContent.cta} size="lg" />

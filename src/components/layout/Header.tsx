@@ -18,24 +18,24 @@ export function Header() {
               width={siteContent.logo.width}
               height={siteContent.logo.height}
             />
-            <span className="font-heading text-lg font-semibold text-ink">
+            <span className="font-heading text-lg font-semibold text-ink-soft">
               {siteContent.name}
             </span>
           </Link>
 
-          <nav className="hidden items-center gap-9 lg:flex">
-            {navLinks.map((link) => (
-              <Link
-                key={link.href}
-                href={link.href}
-                className="text-sm font-medium text-ink-soft transition-colors hover:text-primary-600"
-              >
-                {link.label}
-              </Link>
-            ))}
-          </nav>
+          <div className="hidden items-center gap-10 lg:flex">
+            <nav className="flex items-center gap-9">
+              {navLinks.map((link) => (
+                <Link
+                  key={link.href}
+                  href={link.href}
+                  className="text-sm font-medium text-ink-soft transition-colors hover:text-primary-600"
+                >
+                  {link.label}
+                </Link>
+              ))}
+            </nav>
 
-          <div className="hidden lg:block">
             <Button {...navCta} />
           </div>
 

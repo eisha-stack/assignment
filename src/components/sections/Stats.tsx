@@ -9,7 +9,7 @@ export function Stats() {
       <Container>
         <div className="grid grid-cols-1 items-center gap-12 lg:grid-cols-2 lg:gap-16">
           <Reveal className="flex flex-col items-center gap-4 text-center lg:items-start lg:text-left">
-            <h2 className="font-heading text-2xl font-semibold leading-snug text-ink sm:text-3xl">
+            <h2 className="font-heading text-2xl font-semibold leading-snug text-ink-soft sm:text-3xl">
               {statsContent.headingLead}
               <br />
               <span className="text-primary-600">{statsContent.headingHighlight}</span>
@@ -28,7 +28,7 @@ export function Stats() {
                   className="mt-1 h-[33.41px] w-[33.41px] shrink-0"
                 />
                 <div className="flex flex-col">
-                  <span className="font-heading text-xl font-semibold text-ink sm:text-2xl">
+                  <span className="font-heading text-xl font-semibold text-ink-soft sm:text-2xl">
                     {stat.value}
                   </span>
                   <span className="text-sm text-body">{stat.label}</span>

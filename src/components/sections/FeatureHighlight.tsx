@@ -37,7 +37,7 @@ export function FeatureHighlight({ content, id, background = "white" }: FeatureH
             delay={150}
             className={cn("flex flex-col items-center gap-5 text-center lg:items-start lg:text-left", !imageFirst && "lg:order-1")}
           >
-            <h2 className="font-heading text-2xl font-semibold leading-snug text-ink sm:text-3xl">
+            <h2 className="font-heading text-2xl font-semibold leading-snug text-ink-soft sm:text-3xl">
               {content.title}
             </h2>
             <p className="max-w-md text-sm leading-7 text-body">{content.description}</p>

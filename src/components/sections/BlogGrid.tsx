@@ -9,7 +9,7 @@ export function BlogGrid() {
     <section id="blog" className="bg-white pb-24 pt-16 sm:pb-28 sm:pt-20">
       <Container>
         <Reveal className="mx-auto flex max-w-2xl flex-col items-center gap-3 text-center">
-          <h2 className="font-heading text-2xl font-semibold text-ink sm:text-3xl">
+          <h2 className="font-heading text-2xl font-semibold text-ink-soft sm:text-3xl">
             {blogContent.title}
           </h2>
           <p className="text-sm leading-7 text-body">{blogContent.description}</p>
@@ -29,7 +29,7 @@ export function BlogGrid() {
                   />
                 </div>
                 <div className="relative z-10 -mt-10 mx-4 flex flex-col gap-3 rounded-xl bg-white p-5 shadow-card transition-shadow duration-300 group-hover:shadow-card-hover">
-                  <h3 className="font-heading text-base font-semibold leading-6 text-ink transition-colors duration-200 group-hover:text-primary-700">
+                  <h3 className="font-heading text-base font-semibold leading-6 text-ink-soft transition-colors duration-200 group-hover:text-primary-700">
                     {post.title}
                   </h3>
                   <span className="inline-flex items-center gap-1.5 text-sm font-medium text-primary-600">
