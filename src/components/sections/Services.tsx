@@ -18,7 +18,7 @@ export function Services() {
           {servicesContent.cards.map((card, index) => (
             <Reveal key={card.title} delay={index * 100}>
               <div className="group flex h-full flex-col items-center gap-4 rounded-2xl border border-black/5 bg-white p-8 text-center shadow-card transition-all duration-300 hover:-translate-y-1.5 hover:shadow-card-hover">
-                <div className="flex h-16 w-16 items-center justify-center rounded-2xl bg-primary-50 transition-colors duration-300 group-hover:bg-primary-100">
+                <div className="flex h-16 w-16 items-center justify-center rounded-tl-2xl rounded-tr-2xl rounded-br-2xl rounded-bl-md bg-[#E8F5E9]">
                   <Image
                     src={card.icon.src}
                     alt={card.icon.alt}

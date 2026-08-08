@@ -18,9 +18,9 @@ export function Clients() {
           delay={150}
           className="mt-10 flex flex-wrap items-center justify-between gap-x-8 gap-y-6"
         >
-          {clientsContent.logos.map((logo) => (
+          {clientsContent.logos.map((logo, index) => (
             <Image
-              key={logo.src}
+              key={`${logo.src}-${index}`}
               src={logo.src}
               alt={logo.alt}
               width={logo.width}

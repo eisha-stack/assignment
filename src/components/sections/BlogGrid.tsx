@@ -28,11 +28,11 @@ export function BlogGrid() {
                     className="object-cover transition-transform duration-500 ease-out group-hover:scale-105"
                   />
                 </div>
-                <div className="relative z-10 -mt-10 mx-4 flex flex-col gap-3 rounded-xl bg-white p-5 shadow-card transition-shadow duration-300 group-hover:shadow-card-hover">
-                  <h3 className="font-heading text-base font-semibold leading-6 text-ink-soft transition-colors duration-200 group-hover:text-primary-700">
+                <div className="relative z-10 -mt-10 mx-4 flex h-[148px] flex-col justify-between rounded-xl bg-[#F5F7FA] p-5 shadow-card transition-shadow duration-300 group-hover:shadow-card-hover">
+                  <h3 className="line-clamp-3 font-heading text-base font-semibold leading-6 text-body">
                     {post.title}
                   </h3>
-                  <span className="inline-flex items-center gap-1.5 text-sm font-medium text-primary-600">
+                  <span className="inline-flex items-center gap-1.5 self-center text-sm font-semibold text-primary-600">
                     {post.readMoreLabel}
                     <svg
                       width="14"
